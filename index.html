@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Flash Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+  <!--Google Font-->
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+
+  <!--Javascript-->
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <section class="header">
+
+    <h1 class="title">THE FLASH</h1>
+    <h2 class="sub-title">A Shell Game</h2>
+    <p class="instructions">Enter Your Name to Play:</p>
+
+   
+    <input id="name" class="player" type="text" placeholder="What's your name?">
+   
+
+    
+      <button id="name-button" type="button">CLICK FAST!!!!</button>
+    
+
+    
+    <p class="directions">
+    Choose a card.
+     <br>
+     If you get Iris, you get 5 points; otherwise, the computer gets 5 points. First to 15 points, wins!
+    </p>
+    
+
+  </section>
+
+  <section class="cards">
+    <img id="card1" class="flash-card" src="images/flashlogo.jpg" alt="flash logo">
+    <img id="card2" class="flash-card" src="images/flashlogo.jpg" alt="flash logo">
+    <img id="card3" class="flash-card" src="images/flashlogo.jpg" alt="flash logo">
+  </section>
+
+  <section class="score">
+    <!--Text will be created here via Javascript based on results-->
+    <p id ="text">Good luck!</p>
+    <button id="reset" type="button">Reset Game</button>
+
+  </section>
+
+  <section id ="footer">
+    <p class="copyright">Made with a particle accelerator explosion by Sean McQuaid 2018</p>
+  </section>
+
+
+
+
+
+</body>
+
+</html>
