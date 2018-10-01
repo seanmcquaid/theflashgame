@@ -5,9 +5,5 @@ let name;
 
 document.querySelector('#name-button').addEventListener("click", function(){
   name = document.querySelector('.player').value;
-  alert("Run " + name + "RUN!!!");
+  alert("Run " + name + " RUN!!!");
 }); 
-
-console.log(document.querySelector('#name-button'));
-
-// WHY IS THIS RETURNING NULL!??! 
